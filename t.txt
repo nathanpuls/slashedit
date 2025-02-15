@@ -1,0 +1,43 @@
+/googlenohttp google.com
+/googlehttp http://google.com
+/googlehttps https://google.com
+/googlewww www.google.com
+/google maps maps.google.com
+/page
+
+this is /googlenohttp google.com and its fun
+here is another link for /googlehttp http://google.com that I like a lot
+Wow! Look, a link -> /googlehttps https://google.com so sweet
+Click this: /googlewww www.google.com. Enjoy!
+A subdomain link /google maps maps.google.com - go there now!
+
+Gonna start working at /yahoo yahoo.com
+Work at yahoo.com
+
+/new website built.at
+/qk.rs qk.rs
+/qkrs qk.rs
+/hey.there qk.rs
+
+example.com
+built.at
+hey.com
+
+#hey
+
+`copy me2`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, `sunt in culpa qui` officia deserunt mollit anim id est laborum.
+
+
+
+#end
+
+sunt in culpa qui
