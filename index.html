@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Markdown</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        a { color: black; text-decoration: underline 1px; }
+        .copy { background: #f0f0f0; padding: 2px 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div id="content">Loading...</div>
+
+    <script src="link.js"></script>
+    <script src="autolink.js"></script>
+    <script src="hash.js"></script>
+    <script src="copy.js"></script>
+    <script>
+        async function fetchText() {
+            try {
+                const response = await fetch('t.txt');
+                if (!response.ok) throw new Error('Failed to load t.txt');
+                const text = await response.text();
+                document.getElementById('content').innerHTML = processText(text);
+            } catch (error) {
+                document.getElementById('content').innerText = "Error loading content.";
+                console.error(error);
+            }
+        }
+
+        function processText(text) {
+            text = processLinks(text);
+            text = processHashes(text);
+            text = processCopy(text);
+            return text.replace(/\n/g, '<br>');
+        }
+
+        window.onload = fetchText;
+    </script>
+
+</body>
+</html>
